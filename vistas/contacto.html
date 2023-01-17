@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header> 
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="../vistas/proyectos.html">Proyectos</a>
+                </li>
+                <li>
+                    <a href="../vistas/equipo.html">Equipo</a>
+                </li>
+                <li>
+                    <a href="../vistas/tienda.html">Tienda</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <span>Sexo</span>
+            <div>
+            <label for="usersex">Masculino</label>
+            <input type="radio" name="usersex" id="usersex" value="masculino">
+            <label for="usersex">Femenino</label>
+            <input type="radio" name="usersex" id="usersex" value="femenino">
+            </div>
+            <div>
+                <div>
+                <label for="Username">Nombre</label>
+                </div>
+                <div>
+                <input type="text" name="Username" id="Username" required>
+                </div>
+                <div>
+                <label for="Lastname">Apellido</label>
+                </div>
+                <div>
+                <input type="text" name="lastname" id="lastname" required>
+                </div>
+                <div>
+                <label for="Cellphone">Numero de telefono</label>
+                </div>
+                <div>               
+               <input type="number" name="Cellphone" id="Cellphone">
+                </div>
+            </div>
+            <div>
+                <label for="EmailData">Email</label>
+            </div>
+            <div>    
+                <input type="email" name="EmailData" id="EmailData" required>
+            </div>
+            <div>
+                <label for="BikeModel">Modelo de moto</label>
+                <select name="ModeloMoto" id="BikeModel">
+                <option value="Y">Yamaha FZ</option>
+                <option value="XR">Tornado XR 250</option>
+                <option value="Y2">Yamaha XTZ</option>
+                <option value="H">Honda twister 250</option>
+                <option value="CG">CG Titan 150</option>
+                <option value="YBR">Yamaha YBR 125</option>
+                </select>
+            </div>
+            <div>
+                <label for="BikeColor">Color del vehiculo</label>
+                <input type="color" name="BikerColor" id="BikeColor" required>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
